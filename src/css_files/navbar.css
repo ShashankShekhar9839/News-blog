@@ -1,0 +1,20 @@
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    opacity: 1;
+    box-shadow: 0 5px 5px 0 snow;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar h2{
+    color: white;
+}

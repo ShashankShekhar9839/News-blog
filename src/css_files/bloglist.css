@@ -1,0 +1,17 @@
+.blog-list{
+    width: 80%;
+    padding: 0.6rem 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 5px;
+    margin: 1rem auto;
+    box-shadow: 0 10px 10px 0 rgb(219, 217, 217);
+
+}
+
+.blog-list:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,64 @@
+.new-post-container{
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: space-between;
+    gap: 0.7rem;
+}
+
+.new-post h2{
+    text-align: center;
+}
+
+.input-heading{
+    margin-top: 5rem;
+}
+.new-post-form input{
+    display: block;
+    font-size:20px;
+    width: 90%;
+    padding: 0.5rem 1rem;
+    margin: 0.8rem 0;
+ 
+}
+
+.submit-btn{
+    background-color: black;
+    color: white;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+.left-input-div{
+    width: 30%;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 10px 0 rgb(219, 217, 217);
+}
+
+.new-post-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.right-div-post{
+    width: 60%;
+    box-shadow: 0 10px 10px 0 rgb(219, 217, 217);
+     height: auto;
+     margin: 1rem 0;
+}
+
+.refresh{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0.5rem 0;
+}
+
+.right-div-post h4{
+    text-align: center;
+}
